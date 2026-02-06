@@ -13,6 +13,8 @@ This is useful for testing:
 Import with ```import "github.com/google/gofuzz"```
 
 You can use it on single variables:
+
+
 ```go
 f := fuzz.New()
 var myInt int
